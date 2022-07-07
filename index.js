@@ -4,12 +4,13 @@ const fs = require('fs');
 
 
 // TODO: Create a function to write README file
- //function writeToFile(fileName, data) {}
-const generateReadMe = ({title, description, motivation, why, problem, learned, installation, usage, credits}) =>
+
+const generateReadMe = ({title, description, motivation, why, problem, learned, installation, usage, languages, credits}) =>
 `
 # ${title}
+***
 
-## Description
+# Description
 
 ${description}
 - ${motivation}
@@ -23,14 +24,20 @@ ${description}
 
 ${installation}
 
+
 ## Usage
 
 ${usage}
 
 
+## Languages
+* ${languages}
 
-## Credits
+
+#### Credits
+[Github](https://www.github.com "Github Home")
 ${credits}
+---
 `
 ;
 
@@ -79,6 +86,11 @@ inquirer
       },
       {
         type: 'input',
+        name: 'languages',
+        message: 'What languages did you use?',
+      },
+      {
+        type: 'input',
         name: 'credits',
         message: 'List your collaborators, if any, with links to their GitHub profiles. Or insert your own.',
       },
@@ -93,10 +105,3 @@ inquirer
 
 
 
-
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();

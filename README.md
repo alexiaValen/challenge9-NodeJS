@@ -2,13 +2,13 @@
 
 # 09 Node.js Challenge: Professional README Generator
 
-## Your Task
+## Task
 
 When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
 
 You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
+task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
 
 The application will be invoked by using the following command:
 
@@ -59,19 +59,7 @@ Here are some guidelines to help you get started:
 
 * Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
 
-## Grading Requirements
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
 
 ### Deliverables: 20%
 
@@ -95,17 +83,7 @@ This Challenge is graded based on the following criteria:
 
 	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
-### Repository Quality: 13%
 
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
 
 
 ## Review
