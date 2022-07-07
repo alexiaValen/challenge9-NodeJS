@@ -3,7 +3,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 
-
+// TODO: Create a function to write README file
+ //function writeToFile(fileName, data) {}
 const generateReadMe = ({title, description, motivation, why, problem, learned, installation, usage, credits}) =>
 `
 # ${title}
@@ -86,15 +87,13 @@ inquirer
     const readMePageContent = generateReadMe(answers);
 
     fs.writeFile('userREADME.MD', readMePageContent, (err) =>
-      err ? console.log(err) : console.log('Successfully created index.html!')
+      err ? console.log(err) : console.log('Successfully created README file!')
     );
   });
 
 
 
 
-// TODO: Create a function to write README file
- //function writeToFile(fileName, data) {}
 
 // // TODO: Create a function to initialize app
 // function init() {}
